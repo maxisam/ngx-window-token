@@ -39,6 +39,18 @@ System.config({
 });
 ```
 
+In your module
+
+```
+ imports: [ BrowserModule, WindowTokenModule ]
+```
+
+In your component 
+
+```
+  constructor(@Inject(WINDOW) _window) { }
+```
+
 For webpack / Angular CLI, it works as any other libraries. Please check demo folder for more help. 
 
 ## Example
