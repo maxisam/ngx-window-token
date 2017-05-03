@@ -10,7 +10,7 @@ It is the same way how angular handle document. With this module, you can use WI
 
 ## Dependencies
 
-+ Angular >=2.0.0
++ Angular >=4.0.0
 
 ## Install
 
