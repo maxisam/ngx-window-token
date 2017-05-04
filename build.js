@@ -25,12 +25,12 @@ exec('tslint ./src/**/*.ts -e ./src/**/*.ngfactory.ts');
 echo(chalk.green('TSLint completed'));
 
 
-/* Aot compilation */
+/* AoT compilation */
 echo('Start AoT compilation');
-echo('ngc -p tsconfig-build.json');
-
-exec('ngc -p tsconfig-build.json');
-
+if (exec(`ngc -p tsconfig-build.json`).code !== 0) {
+    echo(chalk.red(`Error: AoT compilation failed`));
+    exit(1);
+}
 echo(chalk.green('AoT compilation completed'));
 
 
