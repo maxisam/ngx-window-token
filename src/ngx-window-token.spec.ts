@@ -1,4 +1,4 @@
-import { WINDOW, WindowTokenModule } from './';
+import { WINDOW, WindowTokenModule } from './ngx-window-token';
 
 import { TestBed, async, inject } from '@angular/core/testing';
 import { Component, Inject } from "@angular/core";

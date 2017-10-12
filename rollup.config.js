@@ -1,5 +1,5 @@
 export default {
-    entry: './dist/index.js',
+    entry: './dist/ngx-window-token.js',
     dest: './dist/bundles/ngxWindowToken.umd.js',
     format: 'umd',
     // Global namespace.

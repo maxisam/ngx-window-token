@@ -2,7 +2,7 @@
   "name": "ngx-window-token",
   "description": "angular 2 window inject token",
   "main": "./dist/bundles/ngxWindowToken.umd.min.js",
-  "module": "./dist/index.js",
+  "module": "./dist/ngx-window-token.js",
   "version": "0.0.1",
   "author": {
     "name": "Sam Lin",
@@ -93,8 +93,9 @@
     "README.md",
     "dist",
     "src",
-    "index.ts"
+    "ngx-window-token.ts"
   ],
+  "typings": "./dist/ngx-window-token.d.ts",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
