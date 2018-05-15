@@ -25,7 +25,7 @@ before_script:
   - sleep 3
   - npm prune
 script:
-  - karma start
+  - npm run test
   - npm run build
 after_success:
   - npm publish .\dist\ngx-window-token\
