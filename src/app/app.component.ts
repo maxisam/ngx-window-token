@@ -9,7 +9,7 @@ import { WINDOW } from '../../projects/ngx-window-token/src/lib/ngx-window-token
 export class AppComponent {
   useragent: string;
   constructor(@Inject(WINDOW) _window) {
-    this.useragent = `User Agent: ${_window.navigator.userAgent}, `;
+    this.useragent = `${_window.navigator.userAgent}, `;
   }
   title = 'ngx window token';
 }
