@@ -4,7 +4,6 @@
 [![GitHub release](https://img.shields.io/github/release/maxisam/ngx-window-token.svg?style=flat-square)](https://github.com/maxisam/ngx-window-token/releases)
 [![npm](https://img.shields.io/npm/l/ngx-window-token.svg?style=flat-square)]()
 
-# LibraryHost
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
@@ -12,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It is the same way how angular handle document. With this module, you can use WINDOW token just like DOCUMENT token.
 
-# Breaking Change version < 1.0.0
+# Breaking Change after version 1.0.0
 
 change `WindowTokenModule` -> `NgxWindowTokenModule`
 
@@ -64,7 +63,7 @@ For webpack / Angular CLI, it works as any other libraries. Please check demo fo
 
 ## Example
 
-[plunker](https://plnkr.co/edit/uy2UfN0sD5I2qoNotGu7?p=preview)
+[stackblitz.com](https://stackblitz.com/github/maxisam/ngx-window-token)
 
 or clone this repo and run `ng serve`
 
