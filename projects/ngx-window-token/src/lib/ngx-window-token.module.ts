@@ -13,4 +13,4 @@ export function _window(): Window {
         useFactory: _window
     }]
 })
-export class WindowTokenModule { }
+export class NgxWindowTokenModule { }
