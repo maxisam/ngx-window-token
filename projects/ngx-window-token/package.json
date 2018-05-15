@@ -1,0 +1,28 @@
+{
+  "name": "ngx-window-token",
+  "version": "0.0.1",
+  "description": "angular 2 window inject token",
+  "homepage": "https://github.com/maxisam/ngx-window-token",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sam Lin",
+    "email": "maxisam@gmail.com"
+  },
+  "engines": {
+    "node": ">=6.9.x"
+  },
+  "license": "MIT",
+  "publishConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxisam/ngx-window-token"
+  },
+  "bugs": {
+    "url": "https://github.com/maxisam/ngx-window-token/issues"
+  },
+  "keywords": ["angular", "window", "inject", "token"],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}
