@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "angular 2 window inject token",
   "homepage": "https://github.com/maxisam/ngx-window-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Sam Lin",
     "email": "maxisam@gmail.com"
@@ -22,7 +22,7 @@
   },
   "keywords": ["angular", "window", "inject", "token"],
   "peerDependencies": {
-    "@angular/common": ">=6.0.0",
-    "@angular/core": ">=6.0.0"
+    "@angular/common": ">=6.0.0 || ^7.0.0-rc.0",
+    "@angular/core": ">=6.0.0 || ^7.0.0-rc.0"
   }
 }
