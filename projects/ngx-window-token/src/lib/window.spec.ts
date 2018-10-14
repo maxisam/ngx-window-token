@@ -1,12 +1,11 @@
-import { WINDOW, NgxWindowTokenModule } from './ngx-window-token.module';
+import { WINDOW } from './window';
 
-import { TestBed, async, inject } from '@angular/core/testing';
-import { Component, Inject } from '@angular/core';
+import { TestBed, inject } from '@angular/core/testing';
 
 describe('Service token: WINDOW', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [NgxWindowTokenModule]
+      imports: []
     });
   });
   it(

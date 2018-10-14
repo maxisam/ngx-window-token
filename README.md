@@ -11,6 +11,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It is the same way how angular handle document. With this module, you can use WINDOW token just like DOCUMENT token.
 
+# Breaking Change after version 1.0.2
+
+removed now-unnecessary `NgxWindowTokenModule`
+
 # Breaking Change after version 1.0.0
 
 change `WindowTokenModule` -> `NgxWindowTokenModule`
@@ -45,12 +49,6 @@ System.config({
     'ngx-window-token': 'node_modules/ngx-window-token'
   }
 });
-```
-
-In your module
-
-```
- imports: [ BrowserModule, NgxWindowTokenModule ]
 ```
 
 In your component

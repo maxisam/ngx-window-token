@@ -1,11 +1,11 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { NgxWindowTokenModule } from '../../projects/ngx-window-token/src/lib/ngx-window-token.module';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [AppComponent],
-      imports: [NgxWindowTokenModule]
+      imports: []
     }).compileComponents();
   }));
   it('should create the app', async(() => {
