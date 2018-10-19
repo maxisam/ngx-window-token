@@ -22,7 +22,7 @@
     "@angular/platform-browser": "^7.0.0",
     "@angular/platform-browser-dynamic": "^7.0.0",
     "@angular/router": "^7.0.0",
-    "ngx-window-token": "2.0.0-beat.1",
+    "ngx-window-token": "2.0.0-beta.1",
     "core-js": "^2.5.7",
     "rxjs": "^6.3.3",
     "zone.js": "^0.8.26"
