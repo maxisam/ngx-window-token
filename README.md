@@ -4,8 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/maxisam/ngx-window-token.svg?style=flat-square)](https://github.com/maxisam/ngx-window-token/releases)
 [![npm](https://img.shields.io/npm/l/ngx-window-token.svg?style=flat-square)]()
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.
 
 # ngx-window-token
 
@@ -13,7 +12,7 @@ It is the same way how angular handle document. With this module, you can use WI
 
 # Breaking Change after version 1.0.2
 
-removed now-unnecessary `NgxWindowTokenModule`
+removed now-unnecessary `NgxWindowTokenModule`, it will be inject into root module
 
 # Breaking Change after version 1.0.0
 
@@ -21,7 +20,7 @@ change `WindowTokenModule` -> `NgxWindowTokenModule`
 
 ## Dependencies
 
-* Angular >=6.0.0
+- Angular >=6.0.0
 
 ## Install
 
@@ -67,4 +66,4 @@ or clone this repo and run `ng serve`
 
 ## Contributing
 
-1.  Your commits conform to the conventions established [here](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md)
+1. Your commits conform to the conventions established [here](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md)

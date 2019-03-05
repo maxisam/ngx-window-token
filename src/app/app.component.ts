@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import { WINDOW } from '../../projects/ngx-window-token/src/public_api';
+import { WINDOW } from 'ngx-window-token';
 
 @Component({
   selector: 'app-root',
