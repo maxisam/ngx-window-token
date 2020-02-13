@@ -1,69 +1,27 @@
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![travis build](https://img.shields.io/travis/maxisam/ngx-window-token.svg?style=flat-square)](https://travis-ci.org/maxisam/ngx-window-token)
-[![npm](https://img.shields.io/npm/dt/ngx-window-token.svg?style=flat-square)](https://www.npmjs.com/package/ngx-window-token)
-[![GitHub release](https://img.shields.io/github/release/maxisam/ngx-window-token.svg?style=flat-square)](https://github.com/maxisam/ngx-window-token/releases)
-[![npm](https://img.shields.io/npm/l/ngx-window-token.svg?style=flat-square)]()
+# NgxWindowToken
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
-# ngx-window-token
+## Development server
 
-It is the same way how angular handle document. With this module, you can use WINDOW token just like DOCUMENT token.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Breaking Change after version 1.0.2
+## Code scaffolding
 
-removed now-unnecessary `NgxWindowTokenModule`, it will be inject into root module
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-# Breaking Change after version 1.0.0
+## Build
 
-change `WindowTokenModule` -> `NgxWindowTokenModule`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Dependencies
+## Running unit tests
 
-- Angular >=6.0.0
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Install
+## Running end-to-end tests
 
-You can get it on npm.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-```
-npm install ngx-window-token --save
-```
+## Further help
 
-## Build project
-
-```
-1. npm i
-
-2. npm run build
-```
-
-## Usage
-
-If you use SystemJS to load your files, you might have to update your config:
-
-```js
-System.config({
-  map: {
-    'ngx-window-token': 'node_modules/ngx-window-token'
-  }
-});
-```
-
-In your component
-
-```
-  constructor(@Inject(WINDOW) _window) { }
-```
-
-For webpack / Angular CLI, it works as any other libraries. Please check demo folder for more help.
-
-## Example
-
-[stackblitz.com](https://stackblitz.com/github/maxisam/ngx-window-token)
-
-or clone this repo and run `ng serve`
-
-## Contributing
-
-1. Your commits conform to the conventions established [here](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
