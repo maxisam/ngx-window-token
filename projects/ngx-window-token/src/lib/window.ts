@@ -1,7 +1,8 @@
 import { InjectionToken } from '@angular/core';
 
-
-export const WINDOW = new InjectionToken<Window>(
-  'WindowToken',
-  typeof window !== 'undefined' && window.document ? { providedIn: 'root', factory: () => window } : undefined
+export const WINDOW = new InjectionToken<Window | undefined>(
+	'WindowToken',
+	typeof window !== 'undefined' && window.document
+		? { providedIn: 'root', factory: () => window }
+		: { providedIn: 'root', factory: () => undefined }
 );
