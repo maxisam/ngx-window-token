@@ -7,6 +7,7 @@
     "build:host": "ng build",
     "test:host": "ng test",
     "lint:host": "ng lint",
+    "prettier": "prettier --write \"**/*.{json,scss,md,ts,html}\"",
     "build": "ng build ngx-window-token --prod && npm run copy-readme",
     "test": "ng test ngx-window-token",
     "lint": "ng lint ngx-window-token",

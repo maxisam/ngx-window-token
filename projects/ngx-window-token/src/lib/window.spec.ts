@@ -8,10 +8,7 @@ describe('Service token: WINDOW', () => {
       imports: []
     });
   });
-  it(
-    'should service work',
-    inject([WINDOW], window => {
-      expect(window).toBeTruthy();
-    })
-  );
+  it('should service work', inject([WINDOW], window => {
+    expect(window).toBeTruthy();
+  }));
 });

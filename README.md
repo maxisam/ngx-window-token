@@ -48,9 +48,9 @@ If you use SystemJS to load your files, you might have to update your config:
 
 ```js
 System.config({
-	map: {
-		'ngx-window-token': 'node_modules/ngx-window-token'
-	}
+  map: {
+    'ngx-window-token': 'node_modules/ngx-window-token'
+  }
 });
 ```
 
