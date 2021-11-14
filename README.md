@@ -10,6 +10,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It is the same way how angular handle document. With this module, you can use WINDOW token just like DOCUMENT token.
 
+# Breaking Change after version 6.0.0
+
+BREAKING CHANGE: Support Angular >= 13 only
+
 # Breaking Change after version 5.0.0
 
 return undefine if window is undefine. Before, it doesn't even inject WindowToken.
