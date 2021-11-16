@@ -14,19 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/cache@v1
-        id: yarn-cache
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: ${{ runner.os }}-yarn
-
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
           node-version: 14.15.0
+          cache: 'yarn'
+
+      - uses: actions/cache@v2
+        id: angular-cache
+        with:
+          path: |
+            .angular/cache
+          key: ${{ runner.os }}-ng-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: ${{ runner.os }}-ng
 
       - name: Install dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --pure-lockfile --non-interactive --no-progress
 
       # Fix linting errors first
