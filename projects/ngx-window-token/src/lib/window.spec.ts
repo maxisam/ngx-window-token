@@ -1,6 +1,6 @@
+import { inject, TestBed } from '@angular/core/testing';
 import { WINDOW } from './window';
 
-import { TestBed, inject } from '@angular/core/testing';
 
 describe('Service token: WINDOW', () => {
   beforeEach(() => {
@@ -8,7 +8,7 @@ describe('Service token: WINDOW', () => {
       imports: []
     });
   });
-  it('should service work', inject([WINDOW], window => {
+  it('should service work', inject([WINDOW], (window:Window) => {
     expect(window).toBeTruthy();
   }));
 });

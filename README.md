@@ -1,5 +1,5 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![travis build](https://img.shields.io/travis/maxisam/ngx-window-token.svg?style=flat-square)](https://travis-ci.org/maxisam/ngx-window-token)
+[![ngx-window-token](https://github.com/maxisam/ngx-window-token/actions/workflows/ngx-window-token.yml/badge.svg)](https://github.com/maxisam/ngx-window-token/actions/workflows/ngx-window-token.yml)
 [![npm](https://img.shields.io/npm/dt/ngx-window-token.svg?style=flat-square)](https://www.npmjs.com/package/ngx-window-token)
 [![GitHub release](https://img.shields.io/github/release/maxisam/ngx-window-token.svg?style=flat-square)](https://github.com/maxisam/ngx-window-token/releases)
 [![npm](https://img.shields.io/npm/l/ngx-window-token.svg?style=flat-square)]()
