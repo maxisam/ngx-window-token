@@ -130,6 +130,13 @@
             "main": "projects/ngx-window-token/src/test.ts",
             "tsConfig": "projects/ngx-window-token/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-window-token/karma.conf.js"
+          },
+          "configurations": {
+            "ci": {
+                "watch": false,
+                "progress": false,
+                "browsers": "ChromeHeadlessCI"
+            }
           }
         }
       }
