@@ -142,7 +142,6 @@
       }
     }
   },
-  "defaultProject": "library-host",
   "cli": {
     "analytics": "7bff545b-f3a8-4098-ae00-e4a9b4a09203"
   }
