@@ -44,6 +44,6 @@ jobs:
 
       - name: Publish library
         if: github.event_name == 'workflow_dispatch'
-        run: yarn publish:lib --not-interactive
+        run: yarn publish:lib --non-interactive
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
