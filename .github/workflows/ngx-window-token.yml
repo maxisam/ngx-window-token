@@ -44,6 +44,7 @@ jobs:
 
       - name: Publish library
         if: github.event_name == 'workflow_dispatch'
-        run: yarn publish:lib --non-interactive
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ~/.npmrc && yarn publish:lib --non-interactive
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
