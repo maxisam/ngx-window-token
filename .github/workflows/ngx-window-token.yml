@@ -47,4 +47,4 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         run: yarn publish:lib
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
