@@ -16,7 +16,8 @@ jobs:
           node-version: 18.x
           cache: 'yarn'
           registry-url: 'https://registry.npmjs.org'
-
+          always-auth: true
+          
       - uses: actions/cache@v3
         id: angular-cache
         with:
