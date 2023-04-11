@@ -11,7 +11,7 @@
     "build": "ng build ngx-window-token --configuration production && npm run copy-readme",
     "test": "ng test ngx-window-token",
     "lint": "ng lint ngx-window-token",
-    "publish:lib": "yarn publish ./dist/ngx-window-token",
+    "publish:lib": "yarn publish ./dist/ngx-window-token --access public",
     "publish:lib:next": "yarn publish ./dist/ngx-window-token --tag next",
     "copy-readme": "cpx \"./README.md\" \"./dist/ngx-window-token\"",
     "e2e": "ng e2e"
@@ -26,7 +26,7 @@
     "@angular/platform-browser": "^15.1.4",
     "@angular/platform-browser-dynamic": "^15.1.4",
     "@angular/router": "^15.1.4",
-    "ngx-window-token": "6.0.0",
+    "ngx-window-token": "7.0.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.1",
     "zone.js": "~0.11.4"

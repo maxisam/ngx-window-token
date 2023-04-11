@@ -1,25 +1,29 @@
 name: ngx-window-token
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
   workflow_dispatch:
+    inputs:
+      isBeta:
+        description: 'Is this a beta release?'
+        required: false
+        default: 'false'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: 18.x
           cache: 'yarn'
+          registry-url: 'https://registry.npmjs.org'
+          always-auth: true
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: angular-cache
         with:
           path: |
@@ -45,4 +49,7 @@ jobs:
 
       - name: Publish library
         if: github.event_name == 'workflow_dispatch'
-        run: yarn publish:lib
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc && npm publish ./dist/ngx-window-token --access public --tag ${{ github.event.inputs.isBeta == 'true' && 'next' || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

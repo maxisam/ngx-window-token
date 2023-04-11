@@ -11,13 +11,16 @@
     "node": "^14.20.0 || ^16.13.0 || >=18.10.0"
   },
   "license": "MIT",
-  "publishConfig": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/maxisam/ngx-window-token"
   },
   "bugs": {
     "url": "https://github.com/maxisam/ngx-window-token/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "keywords": [
     "angular",
