@@ -7174,15 +7174,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
-nanoid@^3.1.30:
-  version "3.1.30"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
-  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
-
-nanoid@^3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
-  integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
+nanoid@^3.1.30, nanoid@^3.3.4:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
+  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -7267,10 +7262,10 @@ ng-packagr@^15.1.2:
   optionalDependencies:
     esbuild "^0.17.0"
 
-ngx-window-token@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/ngx-window-token/-/ngx-window-token-6.0.0.tgz#8b4704242df93a302422a23163359c09d6bb34a0"
-  integrity sha512-IeLKO1jzfzSvZ6vlAt4QSY/B5XcHEhdOwTjqvWEPt6/esWV9T3mA2ln10kj6SCc9pUSx4NybxE10gcyyYroImg==
+ngx-window-token@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-window-token/-/ngx-window-token-7.0.0.tgz#2e1bc76846411a388188b802154e4841d3e27856"
+  integrity sha512-5+XfRVSY7Dciu8xyCNMkOlH2UfwR9W2P1Pirz7caaZgOZDjFbL8aEO2stjfJJm2FFf1D6dlVHNzhLWGk9HGkqA==
   dependencies:
     tslib "^2.0.0"
 
